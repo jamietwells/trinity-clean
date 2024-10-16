@@ -9,10 +9,11 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: left;
+    --colour-highlight: #0579C0;
 }
 
 header {
-    background-color: #004080;
+    background-color: var(--colour-highlight);
     color: white;
     display: grid;
     grid-template-areas:
@@ -130,7 +131,7 @@ main {
 }
 
 .btn-top {
-    background-color: #004080;
+    background-color: var(--colour-highlight);
     color: white;
     padding: 10px 20px;
     border-radius: 5px;
@@ -175,7 +176,7 @@ iframe[src="https://docs.google.com/forms/d/e/1FAIpQLSeZJtV0hbUWJArmVICuaYPeAUgL
 }
 
 .drop-cap {
-    color: #004080; /* Navy blue */
+    color: var(--colour-highlight);
     font-size: 2em; /* Larger font size for drop cap */
     float: left; /* Floats the letter to the left */
     margin-right: 5px; /* Adds some space to the right of the drop cap */
