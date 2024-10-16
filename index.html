@@ -25,14 +25,26 @@
         </em>
 
         <form>
-            <label for="bedrooms">Total number of bedrooms</label>
-            <input id="bedrooms" name="bedrooms" type="number" placeholder="Enter the number of bedrooms">
-
+            <label for="propertyType">Property Type</label>
+            <select id="propertyType" name="propertyType">
+                <option value="flat">Apartment / Single storey house</option>
+                <option value="house">One or more storeys</option>
+            </select>
+    
+            <label for="bedrooms">Number of bedrooms</label>
+            <input id="bedrooms" name="bedrooms" type="number" min="1" placeholder="Enter the number of bedrooms">
+    
+            <label for="bathrooms">Number of en suites / downstairs W/C</label>
+            <input id="bathrooms" name="bathrooms" type="number" min="0" placeholder="Enter number of en suites">
+    
+            <label for="separateBathrooms">Number of separate bathrooms</label>
+            <input id="separateBathrooms" name="separateBathrooms" type="number" min="0" placeholder="Enter number of separate bathrooms">
+    
+            <label for="ovenClean">Oven clean?</label>
+            <input id="ovenClean" name="ovenClean" type="checkbox">
+    
             <p>Your quote: <span id="total">£0.00</span></p>
-            <p>All prices shown include VAT and all other charges. Email Kit on <a
-                    href="mailto:kit@quays-cleaning.co.uk">
-                    kit@quays-cleaning.co.uk</a> and we will be very happy to
-                help.</p>
+            <p>All prices shown include VAT and all other charges. Email Kit on <a href="mailto:kit@quays-cleaning.co.uk">kit@quays-cleaning.co.uk</a> and we will be very happy to help.</p>
         </form>
 
         <!-- Calendly inline widget begin -->
