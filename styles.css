@@ -39,7 +39,7 @@ header img {
 header h1 {
     grid-area: heading;
     font-size: 1.8em;
-    max-width: 600px;
+    max-width: 650px;
     margin: 0 auto;
     line-height: 1.2;
     word-wrap: break-word;
