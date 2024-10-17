@@ -20,7 +20,7 @@ document.addEventListener('DOMContentLoaded', function () {
         const ovenClean = elements.ovenClean.checked;
 
         // Base price depending on property type
-        let total = (propertyType === 'flat') ? 185 : 195;
+        let total = (propertyType === 'flat') ? 165 : 195;
 
         // Add bedroom charges
         if (bedrooms === 2) total += 50;
